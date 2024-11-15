@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@quixo3/prisma-session-store": "^3.1.13",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "name": "purple-express-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
